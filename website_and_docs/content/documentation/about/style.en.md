@@ -210,7 +210,8 @@ Maybe you want something like this:
 
 For this you need to use `disableCodeBlock=true` instead of `langEqualsHeader=true` 
 
-You need to specify which parts are code and which are not yourself now, like this:
+You need to be explicit about which parts are code and which are not,
+do not indent plain text or it will still be treated like a codeblock:
 
     {{</* tabpane disableCodeBlock=true */>}}
     {{</* tab header="Java" */>}}
