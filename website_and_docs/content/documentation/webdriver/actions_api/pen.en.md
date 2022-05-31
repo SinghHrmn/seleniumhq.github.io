@@ -14,7 +14,9 @@ has 5 buttons, a pen has 3 equivalent button states:
 * 2 — Barrel Button (equivalent to a right click)
 * 5 — Eraser Button (currently unsupported by drivers)
 
-{{< tabpane disableCodeBlock=true >}}
+## Using a Pen
+
+{{< tabpane disableCodeBlock=true height="11">}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/PenTest.java#L26-L34" >}}
     {{< /tab >}}

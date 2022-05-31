@@ -20,7 +20,7 @@ Selenium provides convenience methods that combine these actions in the most com
 This method combines moving the mouse to the center of an element with pressing the left mouse button.
 This is useful for focusing a specific element:
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="4" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L22-L25" >}}
     {{< /tab >}}
@@ -46,7 +46,7 @@ This is useful for focusing a specific element:
 This method combines moving to the center of an element with pressing and releasing the left mouse button.
 This is otherwise known as "clicking":
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="4" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L34-L37" >}}
     {{< /tab >}}
@@ -81,7 +81,7 @@ There are a total of 5 defined buttons for a Mouse:
 This method combines moving to the center of an element with pressing and releasing the right mouse button (button 2).
 This is otherwise known as "right-clicking":
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="4" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L46-L49" >}}
     {{< /tab >}}
@@ -106,7 +106,7 @@ This is otherwise known as "right-clicking":
 
 There is no convenience method for this, it is just pressing and releasing mouse button 3
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="7" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L60-L66" >}}
     {{< /tab >}}
@@ -131,7 +131,7 @@ There is no convenience method for this, it is just pressing and releasing mouse
 
 There is no convenience method for this, it is just pressing and releasing mouse button 4
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="7" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L78-L84" >}}
     {{< /tab >}}
@@ -156,7 +156,7 @@ There is no convenience method for this, it is just pressing and releasing mouse
 
 This method combines moving to the center of an element with pressing and releasing the left mouse button twice.
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="4" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L93-L96" >}}
     {{< /tab >}}
@@ -183,7 +183,7 @@ This method moves the mouse to the in-view center point of the element.
 This is otherwise known as "hovering."
 Note that the element must be in the viewport or else the command will error.
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="4" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L105-L108" >}}
     {{< /tab >}}
@@ -221,7 +221,7 @@ will be supported. As of Selenium 4.2, this is the default behavior for Ruby, .N
 to be backwards compatible with previous versions of Selenium.
 This approach does not work correctly when the element is not entirely inside the viewport.
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="4" >}}
     {{< tab header="Java" >}}
 **Not Implemented in Java**
     {{< /tab >}}
@@ -250,7 +250,7 @@ then moves the mouse by the provided offset
 This is the default behavior in Java as of Selenium 4.0, and will be the default
 for the remaining languages as of Selenium 4.3.
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="4" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L117-L120" >}}
     {{< /tab >}}
@@ -276,7 +276,7 @@ for the remaining languages as of Selenium 4.3.
 This method moves the mouse from the upper left corner of the current viewport by the provided
 offset.
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="6" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L131-L136" >}}
     {{< /tab >}}
@@ -304,7 +304,7 @@ If the mouse has not previously been moved, the position will be in the upper le
 corner of the viewport.
 Note that the pointer position does not change when the page is scrolled.
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="3" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L153-L155" >}}
     {{< /tab >}}
@@ -330,7 +330,7 @@ Note that the pointer position does not change when the page is scrolled.
 This method firstly performs a click-and-hold on the source element, 
 moves to the location of the target element and then releases the mouse.
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="5" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L166-L170" >}}
     {{< /tab >}}
@@ -355,7 +355,7 @@ moves to the location of the target element and then releases the mouse.
 
 This method firstly performs a click-and-hold on the source element, moves to the given offset and then releases the mouse.
 
-{{< tabpane disableCodeBlock=true >}}
+{{< tabpane disableCodeBlock=true height="6" >}}
     {{< tab header="Java" >}}
         {{< gh-codeblock path="examples/java/src/test/java/dev/selenium/actions_api/MouseTest.java#L179-L184" >}}
     {{< /tab >}}
